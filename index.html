@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tae Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <!--img src="img/devjane.png" alt=""-->
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Tae Cishe</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="images/Avatar.png" alt="avatar of Tae" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Graphic Design</h3>
+                    <p>I develop and design concepts, graphics and layouts for websites, product illustrations etc. </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Front-end development</h3>
+                    <p> Using mostly HTML and CSS, I engage in analyzing code and design, implementing visual elements that users interact with in web applications</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>Help bloggers and website owners to secure web hosting, web building and content management systems' solutions .</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Graphic Design student & developer based out of Johannesburg South</p>
+           
+           <div class="about-me__body">
+               <p>As a graphic design student, I use my skills to develop and enhance visual content using design tools such as AdobeXD, Figma, and Photoshop. During the length of my studies I've aqcuired further skills in Database Management Systems and SQL, Project Management and System Analysis and Design.</p>
+               <p>I'm also a self-taught front-end developer that spends most of my time polishing up on my programming skills by creating new projects, taking short courses and learning from experienced designers on Dribbble and Behance. For fun, I create illustrations and challenge myself by unlocking new levels on Hackerrank and Code Combat. My goal is to achieve absolute professional knowledge in my current programming languages while continuing to grow my design skills</p>
+           </div>
+           
+           <img src="images/Avatar3.png" alt="Avatar2" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/vector-creator.png" alt="" class="portfolio__img">
+                </a> -->
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/Portfolio.PNG" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/vscsnap.PNG" alt="" class="portfolio__img">
+                </a> -->
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/prosnap.PNG" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio2.PNG" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio3.PNG" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio4.PNG" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 
+                <a href="#" class="portfolio__item">
+                    <img src="images/578d8241-197e-4d30-b31c-e31693a232ad_200x200.png" alt="" class="portfolio__img">
+                </a> -->
+                
+                <!-- Portfolio item 09
+                <a href="#" class="portfolio__item">
+                    <img src="images/Capture2 1.jpg" alt="" class="portfolio__img">
+                </a> -->
+                
+                <!-- Portfolio item 0 0
+                <a href="#" class="portfolio__item">
+                    <img src="images/The Homeboy's Club Logo III.png" alt="" class="portfolio__img">
+                </a>  -->
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:olwethuci@gmail.com" class="footer__link">hello@taecishe</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/olwethu-cishe-6274a21b5/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://dribbble.com/taecishe">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.figma.com/@taecishe">
+                        <i class="fab fa-figma"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/taecishe/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
